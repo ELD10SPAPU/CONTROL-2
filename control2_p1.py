@@ -8,12 +8,14 @@
 lista_pts = []
 
 for x in range(15):
-    pts = int(input("Ingrese el puntaje: "))
+    pts = input("Ingrese el puntaje: ")
     lista_pts.append(pts)
 
-lista_pts.sort
-print(lista_pts)
+lista_menor = lista_pts.copy
+lista_mayor = lista_pts.copy
 
+dia = 0
 
-
-
+for puntaje in lista_pts:
+    dia = dia + 1
+    

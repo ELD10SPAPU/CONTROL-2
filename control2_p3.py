@@ -1,8 +1,6 @@
-#Ingreso de n palabras a una lista
-#Indicar cuantos caracteres tiene la palabra con la menor cantidad de caracteres
-
 lista = []
 x = 0
+
 while True:
     x = input("Ingrese una palabra(presione Enter para finalizar): ")
     if x != "":
@@ -11,7 +9,9 @@ while True:
         break
 
 print(lista)
-palabra_menor = "aaaaa"
+
+palabra_menor = "aaaaaaaaaaaaaaaaaa"
+
 for x in lista:
     print(x)
     if len(x) < len(palabra_menor):
